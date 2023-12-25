@@ -1,0 +1,15 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .faq-container {
+   width: 50%;
+    max-width: 500px;
+    margin: 50px auto;
+  }
+  h1 {
+    text-align: center;
+    color:green;
+  }
