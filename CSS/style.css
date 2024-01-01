@@ -4,7 +4,6 @@ body {
     padding: 0;
     background-color:wheat; /* Light grey background */
     border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
     padding: 20px;
   .faq-container {
    width: 80%;
@@ -20,4 +19,11 @@ body {
   border-bottom: 1px solid gray; /* Border between FAQ items */
   padding-bottom: 20px;
 }
+h2 {
+  color:blue;
+}
+p {
+  color:chocolate;
+}
+
 }
