@@ -4,7 +4,7 @@ body {
     padding: 0;
     background-color:wheat; /* Light grey background */
     border-radius: 8px; /* Rounded corners */
-    padding: 20px;
+    padding: 20px;}
   .faq-container {
    width: 80%;
     max-width: 800px;
@@ -21,9 +21,9 @@ body {
 }
 h2 {
   color:blue;
+  text-align: center;
 }
 p {
-  color:chocolate;
-}
-
+  color:green;
+  text-align: justify;
 }
