@@ -1,3 +1,14 @@
+nav a{
+  display: inline;
+  margin-left: 10px;
+  color:blue;
+  justify-content: right;
+  text-decoration: none;
+  font: weight 400px;
+  line-height: 23px;
+  font-style: normal;
+  font-size: 16px;
+}
 body {
   background-image:url(/img/bg.jpg);
   background-size: cover;
