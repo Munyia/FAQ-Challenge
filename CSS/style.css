@@ -1,13 +1,29 @@
-nav a{
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Work+Sans:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  padding-top: 30px;
+  margin: 10px;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+nav a:hover {
+  color:red;
+}
+  nav a{
   display: inline;
   margin-left: 10px;
   color:blue;
-  justify-content: right;
   text-decoration: none;
   font: weight 400px;
   line-height: 23px;
   font-style: normal;
   font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 body {
   background-image:url(/img/bg.jpg);
