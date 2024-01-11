@@ -43,7 +43,7 @@ body {
   }
   h1 {
     text-align: center;
-    color:green;
+    color:hotpink;
   }
 .faq-item {
   margin-bottom: 20px;
@@ -55,6 +55,12 @@ h2 {
   text-align: center;
 }
 p {
-  color:brown;
+  color:white;
   text-align: justify;
+}
+.faq-item {
+  margin-bottom: 20px;
+  border: 1px solid green; /* Border around each FAQ item */
+  border-radius: 8px;
+  overflow: hidden; /* Hide overflow content */
 }
