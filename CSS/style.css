@@ -62,5 +62,19 @@ p {
   margin-bottom: 20px;
   border: 1px solid green; /* Border around each FAQ item */
   border-radius: 8px;
-  overflow: hidden; /* Hide overflow content */
+  overflow: hidden; 
 }
+  .faqitem:hover{
+    box-shadow: 2px 1px 5px 1px white (0, 0, 0, 0.3);
+  }
+  .faq-item h2 {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .faq-item p {
+    padding: 15px;
+    margin: 0;
+  }
