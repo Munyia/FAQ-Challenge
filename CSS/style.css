@@ -33,13 +33,16 @@ body {
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
     padding: 0;
-    background-color:wheat; /* Light grey background */
     border-radius: 8px; /* Rounded corners */
     padding: 20px;}
+
   .faq-container {
-   width: 80%;
+    width: 80%;
     max-width: 800px;
     margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
   }
   h1 {
     text-align: center;
