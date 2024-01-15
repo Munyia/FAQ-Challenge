@@ -70,6 +70,10 @@ p {
   padding: 10px;
   margin: 0;
   text-align: center;
+  background-color: #0066cc;
+  cursor: pointer;
+
+
 }
 .faq-item h2 :hover{
   color: hotpink;
