@@ -58,7 +58,7 @@ h1 {
 }
 
 p {
-  color: white;
+  color: whitesmoke;
   text-align: justify;
 }
 
@@ -70,9 +70,9 @@ p {
   padding: 10px;
   margin: 0;
   text-align: center;
-  background-color: red;
+  background-color: purple;
   cursor: pointer;
-  width: 70%;
+  width: 90%;
 }
 .faq-item h2 :hover {
   color: hotpink;
@@ -84,7 +84,15 @@ p {
 }
 footer{
   display: flex;
-  color: blue;
+  color:plum;
   align-items: center;
   flex-direction: column;
+}
+#cot{
+  display: flex;
+  color: chartreuse;
+  cursor: pointer;
+}
+#cot :hover{
+  color: chartreuse;
 }
