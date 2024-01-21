@@ -1,8 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Work+Sans:wght@300&display=swap");
+/* Resetting default margin and padding for all elements */
 * {
   margin: 0;
   padding: 0;
 }
+
+/* Styling for the header section */
 header {
   display: flex;
   padding-top: 30px;
@@ -10,6 +13,7 @@ header {
   padding: 10px;
   justify-content: space-evenly;
 }
+/* Styling for navigation links */
 nav a:hover {
   color: hotpink;
 }
@@ -82,6 +86,10 @@ p {
   padding: 15px;
   margin: 0;
 }
+.faq-item:target .answer {
+  max-height: 200px; /* Adjust to the maximum expected answer height */
+}
+
 footer{
   display: flex;
   color:plum;
