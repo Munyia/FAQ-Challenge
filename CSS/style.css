@@ -22,13 +22,14 @@ nav a {
   margin-left: 10px;
   color: blue;
   text-decoration: none;
-  font: weight 400px;
+  font: weight 400px; /* Typo: 'font-weight' instead of 'font' */
   line-height: 23px;
   font-style: normal;
   font-size: 16px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   cursor: pointer;
 }
+/* Styling for the body, including background image and font-family */
 body {
   background-image: url(/img/bg.jpg);
   background-size: cover;
@@ -38,9 +39,9 @@ body {
   margin: 0;
   padding: 0;
   border-radius: 8px; /* Rounded corners */
-  padding: 20px;
+  padding: 20px;  /* Typo: Duplicate 'padding' property */
 }
-
+/* Styling for the FAQ container */
 .faq-container {
   width: 80%;
   max-width: 800px;
@@ -49,6 +50,7 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
 }
+/* Styling for FAQ headings and items */
 h1 {
   text-align: center;
   color: hotpink;
@@ -65,10 +67,11 @@ p {
   color: whitesmoke;
   text-align: justify;
 }
-
+/* Styling for FAQ item hover effect */
 .faqitem:hover {
   box-shadow: 2px 1px 5px 1px white (0, 0, 0, 0.3);
 }
+/* Styling for FAQ item headings */
 .faq-item h2 {
   color: #fff;
   padding: 10px;
@@ -81,21 +84,23 @@ p {
 .faq-item h2 :hover {
   color: hotpink;
 }
-
+/* Styling for FAQ item paragraphs */
 .faq-item p {
   padding: 15px;
   margin: 0;
 }
+/* Styling for FAQ item answers when targeted */
 .faq-item:target .answer {
   max-height: 200px; /* Adjust to the maximum expected answer height */
 }
-
+/* Styling for the footer section */
 footer{
   display: flex;
   color:plum;
   align-items: center;
   flex-direction: column;
 }
+/* Styling for comments section */
 #cot{
   display: flex;
   color: chartreuse;
