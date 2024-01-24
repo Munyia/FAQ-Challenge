@@ -42,6 +42,16 @@ body {
   padding: 20px;  /* Typo: Duplicate 'padding' property */
 }
 /* Styling for the FAQ container */
+.faq-item {
+  counter-increment: faq-counter; /* Increment the counter for each FAQ item */
+}
+
+.faq-item::before {
+  content: counter(faq-counter) ". "; /* Display the counter content before each FAQ item */
+  font-weight: bold;
+  margin-right: 5px;
+  color: bisque;
+}
 .faq-container {
   width: 80%;
   max-width: 800px;
